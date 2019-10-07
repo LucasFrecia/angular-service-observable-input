@@ -12,7 +12,7 @@
     "@angular/router": "8.2.9",
     "core-js": "^3.2.1",
     "rxjs": "6.5.3",
-    "rxjs-compat": "^6.5.3",
+    "rxjs-compat": "6.5.3",
     "zone.js": "0.10.2"
   },
   "scripts": {
