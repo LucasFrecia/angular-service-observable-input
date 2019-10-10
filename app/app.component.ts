@@ -6,7 +6,7 @@ import { UserNameService } from './user-name.service';
   templateUrl: './app.component.html',
   styleUrls: [ './app.component.css' ],
   changeDetection: ChangeDetectionStrategy.OnPush
-})
+}) 
 export class AppComponent implements OnDestroy  {
 
   public userName = 'Angular 8';
