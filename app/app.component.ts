@@ -1,4 +1,8 @@
-import { Component, OnDestroy, ChangeDetectionStrategy } from '@angular/core';
+import {
+  Component,
+  OnDestroy,
+  ChangeDetectionStrategy
+} from '@angular/core';
 import { UserNameService } from './user-name.service';
 
 @Component({

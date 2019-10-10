@@ -1,17 +1,15 @@
-import { Component, Input } from "@angular/core";
+import {
+  Component,
+  Input,
+  ChangeDetectionStrategy
+  } from '@angular/core';
 
 @Component({
-  selector: "hello-input",
+  selector: 'hello-input',
   template: `
     <h1>Hello {{ name }}! Changed with @Input</h1>
   `,
-  styles: [
-    `
-      h1 {
-        font-family: Lato;
-      }
-    `
-  ]
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class HelloInputComponent {
   @Input() name: string;
