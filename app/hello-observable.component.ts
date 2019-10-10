@@ -15,8 +15,7 @@ import { Observable } from 'rxjs';
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class HelloObservableComponent {
-  
-  public name: string;
+
   public subscription_user_name$: Observable<string>;
 
   constructor(private _userNameService: UserNameService) {
