@@ -2,4 +2,4 @@
 
 [Edit on StackBlitz ⚡️](https://stackblitz.com/edit/angular-service-observable-input)
 
-![](angular-service-observable-input.gif)
+![View](angular-service-observable-input.gif)

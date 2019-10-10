@@ -1,5 +1,14 @@
-<hello name="{{ userName }}"></hello>
 
+<!-- Communication with @Input-->
+<hello-input [name]="userName"></hello-input>
+
+<!-- Emit to subscritpion to observable -->
 <hello-observable></hello-observable>
-<button (click)="changeUserName('Clark Kent')" > Name me Clark Kent </button>
-<button (click)="changeUserName('Superman')" > Name me Superman </button>
+
+<button (click)="changeUserName('Clark Kent')" >
+  Name me Clark Kent
+</button>
+
+<button (click)="changeUserName('Superman')" >
+  Name me Superman
+</button>
